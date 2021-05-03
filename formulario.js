@@ -94,7 +94,7 @@ function registrarse(){
             console.log("Error");
         }
     });
-    $.ajax({
+   $.ajax({
         url:"ajax/form2.php",
         method:"POST",
         data: parameters,
